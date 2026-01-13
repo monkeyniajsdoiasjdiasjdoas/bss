@@ -1143,7 +1143,7 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=45000000000000
+                stats.capacity+=450000000
                 stats.convertRate*=250.0
                 stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.1)
                 stats.bluePollen*=105.0
