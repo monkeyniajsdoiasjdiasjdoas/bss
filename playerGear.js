@@ -1143,10 +1143,10 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=450000
+                stats.capacity+=45000000
                 stats.convertRate*=2.5
                 stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.1)
-                stats.bluePollen*=1.1
+                stats.bluePollen*=5.1
                 stats.blueBeeAttack+=1
             },
             desc:'A Port-O-Hive dipped in shiny blue paint. Works best for blue bees and blue pollen.<br>+450,000 capacity<br>x2.5 convert rate<br>+10% instant blue conversion<br>x1.1 blue pollen<br>+1 blue bee attack',
