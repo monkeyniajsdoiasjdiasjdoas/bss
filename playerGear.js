@@ -767,21 +767,22 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacityMultiplier*=3
-                stats.blueFieldCapacity*=1.75
-                stats.bluePollen*=1.5
-                stats.bluePollen*=1.35
-                stats.whitePollen*=1.35
-                stats.redPollen*=1.35
-                stats.convertRate*=2
-                stats.convertRateAtHive*=2
-                stats.bubblePollen*=2
+                stats.capacityMultiplier*=8
+                stats.blueFieldCapacity*=5.75
+                stats.bluePollen*=15.0
+                stats.bluePollen*=15.0
+                stats.whitePollen*=15.0
+                stats.redPollen*=15.0
+                stats.convertRate*=10
+                stats.convertRateAtHive*=10
+                stats.bubblePollen*=100
                 stats.redBeeAbilityRate*=1.2
                 stats.blueBeeAbilityRate*=1.2
                 stats.whiteBeeAbilityRate*=1.2
                 stats.defense+=0.35
                 player.addEffect('diamondDrainPassive')
                 player.addEffect('bubbleBombsPassive')
+                player.addEffect('popStarPassive')
             },
             desc:'Proudly show off your extreme wealth to the world. Shine so brightly that others will complain.<br><br>x3 capacity<br>x1.75 blue field capacity<br>x1.5 blue pollen<br>x1.35 pollen<br>x2 convert rate<br>x2 convert rate at hive<br>x2 bubble pollen<br>+35% defense<br>x1.2 bee ability rate<br>+Passive: Diamond Drain<br>+Passive: Bubble Bombs',
             cost:['1 honey'],
