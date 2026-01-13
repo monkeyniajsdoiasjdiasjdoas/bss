@@ -1502,7 +1502,7 @@ window.playerGear={
                 player.addEffect('focusPulserPassive')
             },
             desc:'A guard bestowed with the heroic power of Crimson Bee - Defender of the red bees.<br><br>+300,000 capacity<br>x1.35 red pollen<br>x1.4 convert rate<br>+20% instant red conversion<br>x1.5 red bomb pollen<br>+3 red bee attack<br>+2 white bee attack<br>+10% critical chance<br>+Passive: Focus Pulser',
-            cost:['200000000 honey','100 redExtract','15 stinger','50 oil','25 glitter'],
+            cost:['1 honey'],
         },
     },
     
@@ -1634,7 +1634,7 @@ window.playerGear={
                 player.addEffect('hastePulserPassive')
             },
             desc:'A guard bestowed with the heroic power of Cobalt Bee - Defender of the blue bees.<br><br>+300,000 capacity<br>x1.35 blue pollen<br>x1.4 convert rate<br>+20% instant blue conversion<br>x1.5 blue bomb pollen<br>+3 blue bee attack<br>+2 white bee attack<br>+100% critical power<br>+Passive: Haste Pulser',
-            cost:['200000000 honey','100 blueExtract','15 stinger','50 enzymes','25 glitter'],
+            cost:['1 honey'],
         },
     }
 }
