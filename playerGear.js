@@ -600,14 +600,14 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.bluePollen*=500
-                stats.whitePollen*=500
-                stats.redPollen*=500
-                stats.pollenFromBees*=1000
+                stats.bluePollen*=5.25
+                stats.whitePollen*=5.25
+                stats.redPollen*=5.25
+                stats.pollenFromBees*=10.25
                 stats.defense+=0.25
-                stats.redBeeAbilityRate*=10
-                stats.blueBeeAbilityRate*=10
-                stats.whiteBeeAbilityRate*=10
+                stats.redBeeAbilityRate*=5.1
+                stats.blueBeeAbilityRate*=5.1
+                stats.whiteBeeAbilityRate*=5.1
 
             },
             desc:'A veiled hat only worn by real-deal beekeepers.<br><br>x1.25 pollen<br>x1.25 pollen from bees<br>x1.1 bee ability rate<br>+25% defense',
@@ -784,7 +784,7 @@ window.playerGear={
                 player.addEffect('bubbleBombsPassive')
             },
             desc:'Proudly show off your extreme wealth to the world. Shine so brightly that others will complain.<br><br>x3 capacity<br>x1.75 blue field capacity<br>x1.5 blue pollen<br>x1.35 pollen<br>x2 convert rate<br>x2 convert rate at hive<br>x2 bubble pollen<br>+35% defense<br>x1.2 bee ability rate<br>+Passive: Diamond Drain<br>+Passive: Bubble Bombs',
-            cost:['5000000000 honey','250 blueExtract','1 diamondEgg','75 glitter','100 oil'],
+            cost:['1 honey','0 blueExtract','0 diamondEgg','0 glitter','0 oil'],
         },
         
         demonMask:{
