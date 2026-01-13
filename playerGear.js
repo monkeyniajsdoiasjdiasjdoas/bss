@@ -455,8 +455,8 @@ window.playerGear={
             },
             applyStats:function(stats,player){
                 
-                stats.gliderSpeed=18*0.7
-                stats.gliderFall=-5*0.75
+                stats.gliderSpeed=18*5
+                stats.gliderFall=-5*0.5
             },
             desc:'A parachute you can use to glide down the mountain and reach new places!<br><br>Press jump while in the air to open. ',
             cost:['500000 honey'],
@@ -600,14 +600,14 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.bluePollen*=1.25
-                stats.whitePollen*=1.25
-                stats.redPollen*=1.25
-                stats.pollenFromBees*=1.22
+                stats.bluePollen*=500
+                stats.whitePollen*=500
+                stats.redPollen*=500
+                stats.pollenFromBees*=1000
                 stats.defense+=0.25
-                stats.redBeeAbilityRate*=1.1
-                stats.blueBeeAbilityRate*=1.1
-                stats.whiteBeeAbilityRate*=1.1
+                stats.redBeeAbilityRate*=10
+                stats.blueBeeAbilityRate*=10
+                stats.whiteBeeAbilityRate*=10
 
             },
             desc:'A veiled hat only worn by real-deal beekeepers.<br><br>x1.25 pollen<br>x1.25 pollen from bees<br>x1.1 bee ability rate<br>+25% defense',
