@@ -608,6 +608,14 @@ window.playerGear={
                 stats.redBeeAbilityRate*=5.1
                 stats.blueBeeAbilityRate*=5.1
                 stats.whiteBeeAbilityRate*=5.1
+                player.addEffect('coinScatterPassive')
+                player.addEffect('gummyMorphPassive')
+                player.addEffect('diamondDrainPassive')
+                player.addEffect('bubbleBombsPassive')
+                player.addEffect('xFlamePassive')
+                player.addEffect('ignitePassive')
+                
+            
 
             },
             desc:'A veiled hat only worn by real-deal beekeepers.<br><br>x1.25 pollen<br>x1.25 pollen from bees<br>x1.1 bee ability rate<br>+25% defense',
