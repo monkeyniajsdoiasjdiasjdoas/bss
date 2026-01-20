@@ -1213,23 +1213,29 @@ window.playerGear={
             
             applyStats:function(stats,player){
                 
-                stats.capacity+=3500000
-                stats.convertRate*=5
-                stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,0.15)
-                stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,0.15)
-                stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.15)
-                stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,0.1)
-                stats.whitePollen*=1.25
-                stats.whitePollen*=1.25
-                stats.redPollen*=1.25
-                stats.bluePollen*=1.25
-                stats.whiteBeeAttack+=2
-                stats.redBeeAttack+=2
-                stats.blueBeeAttack+=2
-                stats.defense+=0.1
-                stats.honeyAtHive*=1.1
+                stats.capacity+=3500000000
+                stats.convertRate*=5000
+                stats.instantRedConversion=window.applyPercentage(stats.instantRedConversion,1)
+                stats.instantBlueConversion=window.applyPercentage(stats.instantBlueConversion,1)
+                stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,1)
+                stats.instantWhiteConversion=window.applyPercentage(stats.instantWhiteConversion,1)
+                stats.whitePollen*=1250
+                stats.whitePollen*=1250
+                stats.redPollen*=1250
+                stats.bluePollen*=1250
+                stats.whiteBeeAttack+=200
+                stats.redBeeAttack+=200
+                stats.blueBeeAttack+=200
+                stats.defense+=1
+                stats.honeyAtHive*=10
                 player.addEffect('inspireCoconutsPassive')
                 player.addEffect('emergencyCoconutShieldPassive')
+                player.addEffect('scorchingStar')
+                player.addEffect('gummyStar')
+                player.addeffect('guidingStar')
+                player.addeffect('starShower')
+                player.addeffect('starSaw')
+                
             },
             desc:'A back-mounted coconut that protects you during emergencies.<br><br>+2,500,000 capacity<br>x5 convert rate<br>+15% instant conversion<br>+10% instant white conversion<br>x1.25 pollen<br>x1.25 white pollen<br>+2 bee attack<br>+10% defense<br>x1.1 honey at hive<br>+Passive: Emergengy Coconut Shield<br>+Passive: Inspire Coconuts',
             cost:['20000000000 honey','75 tropicalDrink','100 redExtract','100 blueExtract'],
